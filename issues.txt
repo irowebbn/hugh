@@ -1,0 +1,71 @@
+This document will serve as sort of a list of features that should be implemented, as well as bugs that should be fixed.  Commenting on these issues/features is encouraged, hence the spacing between the lines.
+Use a # at the beginning of the line (like in Python) to designate issues that have been resolved.
+
+Bugs:
+
+1. Mobile layout
+	Possible Solution: @mediatype , incorporate as much into percents as possible
+	
+2. "Show image" button is unnecessary and confusing 
+		I'm not sure why this wasn't implemented in the original code, it might be more difficult to modify the .js than you might think.
+3. Buttons (none of them) are styled	 
+									I have ideas for both of these (Joel)
+4. List (of saved colors) is not styled	 
+
+5. We need a logo -- feel free to submit concept artwork into the repository (in a seperate folder)
+
+6. We need a favicon -- probably be derived from logo
+
+7. We need an app icon -- again, probably related to the previous two
+
+8. We still haven't heard back from the developers of the canvas color picker, and the developer who made the extended version of the ntc.js library.  The latter is not a big deal, but the bulk of our app is in the former.
+
+
+Features:
+	1. Access to the webcam api on desktop (not important, but it would be cool)
+	
+	2. Feature that would take an average of the colors shown in the little square.  This is a very good idea, because when you click or tap, (I think) you're only clicking on one pixel.  Of course, not every hexadecimal value has its own color name, and the square makes it easy to pick the color you want, but it can still be misleading to the user.
+	
+	3. Color playground to see how different colors look with each other.
+										Even though I suggested this, I'm still not sure it needs to be implemented because of feature bloat.
+	4. Better format for the color list.  At the very least, we should show a little thumbnail of the color next to the stored color in the color list.  On the other end, we could make a really awesome color gallery, and allow you to sort the colors by date, name and hue.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	∞.  Accesses the webcam or camera through and creates an augmented reality WebGL superimposed onto the real world.  Updates in realtime, placing the color names on the objects in view as you move the camera.  Includes Google and Mozilla's experimental Oculus Rift support, as well as  Google Glass app.
