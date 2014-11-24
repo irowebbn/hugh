@@ -16,9 +16,11 @@ Bugs:
 
 6. We need a favicon -- probably be derived from logo
 
-7. We need an app icon -- again, probably related to the previous two
+7. We need an app icon -- again, probably related to the previous two (has to be material design)
 
 8. We still haven't heard back from the developers of the canvas color picker, and the developer who made the extended version of the ntc.js library.  The latter is not a big deal, but the bulk of our app is in the former.
+
+9. Instructions at the beginning of the document (i.e., Step 1, Step 2,) should be relocated to a popup dialog that shows on the app's first launch and is also accessible through a help button.
 
 
 Features:
@@ -30,6 +32,7 @@ Features:
 										Even though I suggested this, I'm still not sure it needs to be implemented because of feature bloat.
 	4. Better format for the color list.  At the very least, we should show a little thumbnail of the color next to the stored color in the color list.  On the other end, we could make a really awesome color gallery, and allow you to sort the colors by date, name and hue.
 	
+	5. Material design throughout the app
 	
 	
 	
@@ -67,5 +70,4 @@ Features:
 	
 	
 	
-	
-	∞.  Accesses the webcam or camera through and creates an augmented reality WebGL superimposed onto the real world.  Updates in realtime, placing the color names on the objects in view as you move the camera.  Includes Google and Mozilla's experimental Oculus Rift support, as well as  Google Glass app.
+	∞.  Accesses the webcam or camera through and creates an augmented reality WebGL superimposed onto the real world.  Updates in realtime, placing the color names on the objects in view as you move the camera.  Includes Google and Mozilla's experimental Oculus Rift support, as well as a Google Glass app.
