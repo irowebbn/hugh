@@ -141,6 +141,7 @@ ul {
 
 .grey {
 	background: #F0F0F0;
+	color: #000;
 }
 
 @media only screen and (max-width : 600px) {
