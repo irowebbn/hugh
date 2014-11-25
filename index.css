@@ -8,6 +8,12 @@ button {
     margin: 0px auto;
 }
 
+ul {
+	width: 200px;
+	list-style: none;
+	margin: 0px auto;
+}
+
 
 #topBar{
 	background-color: rgba(77, 171, 171, 1);
@@ -103,13 +109,38 @@ button {
   padding-left: 30px;
   margin: 0px auto;
   
-#submit {
-    float: left;
+}
   
+
+.awesome{
+	background: #222;
+	color: #f2f2f2;
+	text-decoration: none;
+	border-style: none;
+	margin: 0px auto;
+	width: 200px;
+	font-size: 14px;
+	height: 30px;
+	
+
+
 }
 
-#todo-from {
-  float: left;
+.green{
+	background: #a1c181;
+}
+.red{
+	background: red;
+}
+.blue{
+	background: #4DABAB;
+}
+.purple{
+	background: purple;
+}
+
+.grey {
+	background: #F0F0F0;
 }
 
 @media only screen and (max-width : 600px) {
@@ -127,4 +158,6 @@ button {
   #colorOutput {padding-left: 0px;}
   #barvadiv {width: 65%}
   #main {margin: 0px;width: 99%;}
+}
+
 }
