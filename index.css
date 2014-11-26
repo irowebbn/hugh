@@ -144,6 +144,13 @@ ul {
 	color: #000;
 }
 
+#colorList {
+	width: 300px;
+	margin: 0px auto;
+}
+
+
+
 @media only screen and (max-width : 600px) {
   #helplist {width: 95%;}
   #main {width: 95%;}
