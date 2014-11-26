@@ -15,6 +15,8 @@ ul {
 }
 
 
+
+
 #topBar{
 	background-color: rgba(77, 171, 171, 1);
 	text-align:left;
@@ -35,6 +37,24 @@ ul {
 	padding: 1em 1.5em 1em 3em;
 	font-weight: bold;
         float: right;
+}
+
+#uploadImage{
+	position: absolute;
+	right: 0px;
+	opacity: 0;
+	z-index: 2;
+	
+}
+
+#uploadButton {
+	position: absolute;
+	right: 10px;
+	top: -20px;
+	z-index: 1;
+	font-size: 30px;
+	padding: 0px;
+	margin: 0px;
 }
 
 #colorcodes {
@@ -121,6 +141,7 @@ ul {
 	width: 200px;
 	font-size: 14px;
 	height: 30px;
+	text-transform: uppercase;
 	
 
 
@@ -142,11 +163,17 @@ ul {
 .grey {
 	background: #F0F0F0;
 	color: #000;
+	
 }
 
 #colorList {
 	width: 300px;
 	margin: 0px auto;
+	padding: 5px;
+}
+#colorList a{
+	width: 200px;
+	
 }
 
 
