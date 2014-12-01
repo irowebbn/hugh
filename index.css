@@ -3,6 +3,7 @@ html,body{
 	padding: 0;
         background-color: #F0F0F0;
         width: 100%;
+	overflow-x:hidden;
 }
 button {
     margin: 0px auto;
@@ -201,6 +202,8 @@ ul a{
   #colorOutput {padding-left: 0px;}
   #barvadiv {width: 65%}
   #main {margin: 0px;width: 99%;}
+}
+
 }
 
 }
