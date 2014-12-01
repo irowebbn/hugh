@@ -41,9 +41,7 @@ var onclickListener = function(evt) {
 function myFunction()
 {
 	istat=true;
-	cnvWidth=470;
-	cnvHeight=300;
-
+	
 	c=document.getElementById("myCanvas");
 	ctx=c.getContext("2d");
 
@@ -56,14 +54,19 @@ function myFunction()
 	img=document.getElementById("slika");
 	imgHeight = img.height;
 	imgWidth = img.width;
-	
+	if (window.innerWidth > 500) {
+	  cnvWidth=470;
+	  cnvHeight=300;	
+	}else{ cnvWidth=window.innerWidth;
+	cnvHeight=(window.innerWidth/1.56667);
+	}
 	if (imgHeight<cnvHeight && imgWidth<cnvWidth){
 		ctx.mozImageSmoothingEnabled = false;
 		ctx.webkitImageSmoothingEnabled = false;
 	}
-
+	
 	if ((imgWidth/imgHeight)<1.56667){
-		cnvWidth=imgWidth/imgHeight*cnvHeight;
+		cnvWidth=(imgWidth/imgHeight*cnvHeight);
 	}else{
 		cnvHeight=cnvWidth/(imgWidth/imgHeight);
 	}
