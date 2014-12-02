@@ -31,7 +31,7 @@ ul a{
 
 
 #topBar{
-	background-color: rgba(77, 171, 171, 1);
+	background-color:  #009688;
 	text-align:left;
         padding: 0px;
         left: 0px;
@@ -177,7 +177,7 @@ ul a{
 	background: red;
 }
 .blue{
-	background: #4DABAB;
+	background:  #009688;
 }
 .purple{
 	background: purple;

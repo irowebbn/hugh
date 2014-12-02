@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Hugh",
+  "version": "0.1",
+  "default_locale": "en",
+  "description": "An app that recognizes colors",
+  "author":"Isaac Rowe and Joel Ewing",
+  "background": {
+    "persistent": false
+  }
+}
+
