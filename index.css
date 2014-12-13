@@ -59,7 +59,7 @@ ul a{
     right: 0px;
     height: 6px;
     box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.4) inset;
-    
+
 }
 
 #uploadImage{
@@ -67,12 +67,13 @@ ul a{
 	right: 0px;
 	opacity: 0;
 	z-index: 2;
+    top: 20px;
 
 }
 
 #uploadButton {
 	position: absolute;
-	right: 20px;
+	right: 15px;
 	top: -22px;
 	z-index: 1;
 	font-size: 30px;
@@ -98,7 +99,7 @@ ul a{
   padding: 10px;
 }
 #input {
-  float:left; 
+  float:left;
 }
 
 #canvascontainer {
@@ -108,9 +109,9 @@ ul a{
   background-color: #EEE;
   margin: 0px auto;
 
-  
+
 }
- 
+
  #myCanvas {
    border-width: 1px;
    border-style: solid;
@@ -120,7 +121,7 @@ ul a{
    top: 0;
    z-index: 0;
  }
- 
+
   #pixCanvas {
    width: 150px;
    height: 150px;
@@ -151,7 +152,7 @@ ul a{
   padding-top: 155px;
   padding-left: 30px;
   margin: 0px auto;
-  
+
 }
 
 
@@ -187,7 +188,7 @@ ul a{
 .grey {
 	background: #F0F0F0;
 	color: #000;
-	
+
 }
 
 #colorList {
@@ -210,8 +211,8 @@ ul a{
   #helplist {width: 95%;}
   #main {width: 95%;}
   #colorOutput {padding-left: 5px; width: 95%;}
-  
-  
+
+
 }
 @media only screen and (max-width : 555px) {
 

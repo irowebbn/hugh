@@ -98,8 +98,10 @@ function myFunction()
 		document.getElementById("barvadiv").style.backgroundColor=barva;
 	};
 	cPix.addEventListener('mousedown', onMiniclickListener, false);
+	
 	  
 }
+
 function drawPix(cPix, ctxPix, img, x, y) {
 	ctxPix.clearRect(0, 0, cPix.width, cPix.height);
 	if (x<5) x=5;
